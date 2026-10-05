@@ -46,7 +46,7 @@ Main tables: `users`, `jobs`, `applications`, `messages`, `settings`.
 
 1. Clone or download this repository.
 2. In Eclipse, choose **File → Import → Existing Projects into Workspace** and select the project folder.
-3. Create the MySQL database and tables (SQL script will be added in the `database` folder).
+3. Run jobportal.sql in MySQL Workbench to create the database and tables.
 4. Update the database URL, username and password in the `DBConnection` class.
 5. Add the MySQL Connector/J `.jar` file to `src/main/webapp/WEB-INF/lib`.
 6. Right-click the project and choose **Run As → Run on Server**, then select Tomcat 10.1.
